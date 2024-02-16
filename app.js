@@ -24,4 +24,4 @@ function apageAnimation() {
     opacity: 0,
   });
 }
-// apageAnimation();
+apageAnimation();
