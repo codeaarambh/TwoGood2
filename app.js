@@ -1,6 +1,7 @@
 const scroll = new LocomotiveScroll({
   el: document.querySelector(".main"),
   smooth: true,
+  smoothMobile:true,
 });
 function apageAnimation() {
   let a = gsap.timeline();
