@@ -39,11 +39,11 @@ body {
   align-items: flex-start;
 }
 .nav-p1 {
-  height: 96px;
+  height: 78px;
   
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap:10px;
   overflow: hidden;
   justify-content: space-between;
 }
@@ -249,6 +249,9 @@ body {
 @media (max-width: 600px) {
   .nav-p2 .links{
     display: none;
+  }
+  .nav-p1 .logo{
+    width: 50px;
   }
   .cursor {
     height: 50px;
