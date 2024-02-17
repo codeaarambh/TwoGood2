@@ -31,25 +31,26 @@ body {
   padding: 15px;
   height: 100px;
   width: 100%;
- 
+
   position: fixed;
   z-index: 333;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.nav-p1{
-  background-color: red;
-  height: 75px;
-  /* cd  */
+.nav-p1 {
+  height: 96px;
   
-  
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: hidden;
+  justify-content: space-between;
 }
 .nav-p1 img {
- width: 90px;
-  display: block;
-  margin-bottom: 5px;
+  width: 85px;
 }
+
 .nav-p2 {
   display: flex;
   align-items: center;
@@ -67,7 +68,7 @@ body {
   font-family: var(--font1);
   font-size: 14px;
 }
-.nav-p2 .icons{
+.nav-p2 .icons {
   background-color: rgb(255, 255, 255);
   padding: 10px 20px 10px 30px;
   border-radius: 50px;
@@ -246,6 +247,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .nav-p2 .links{
+    display: none;
+  }
   .cursor {
     height: 50px;
     width: 50px;
