@@ -95,14 +95,14 @@ function apageAnimation() {
   });
   gsap.from(".page3-textb", {
     // y:100,
-   y:100,
+    y: 100,
     opacity: 0,
 
     scrollTrigger: {
       trigger: ".page3-textb",
       scroller: ".main",
       // markers: true,
- 
+
       // scrub:true,
     },
     duration: 0.4,
@@ -124,8 +124,6 @@ function apageAnimation() {
     stagger: 0.4,
   });
 
-
-
   gsap.from(".page3 .child", {
     // y:100,
     scale: 0.3,
@@ -139,6 +137,25 @@ function apageAnimation() {
       // scrub:true,
     },
     duration: 0.2,
+    stagger: 0.3,
+  });
+  gsap.from(".page4 .heading h4, .page4 button , .page4 .page4-text p" , {
+    // y:100,
+    y:50,
+    
+    opacity: 0,
+
+    scrollTrigger: {
+      trigger: ".page4",
+      scroller: ".main",
+      // markers: true,
+      start: "top 60%",
+     
+      
+     
+      
+    },
+    duration: 0.4,
     stagger: 0.3,
   });
 }
