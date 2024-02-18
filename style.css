@@ -382,6 +382,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .nav-p2{
+    margin-top: 30px;
+  }
   .nav-p2 .links{
     display: none;
   }
