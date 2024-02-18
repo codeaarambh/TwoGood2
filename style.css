@@ -332,6 +332,9 @@ body {
   justify-self: center;
   font-weight: 600;
 }
+.page4 button:hover{
+  background-color: rgba(0, 0, 0, 0.645);
+}
 .page4-text {
   grid-column: 2/4;
   grid-row: 3/4;

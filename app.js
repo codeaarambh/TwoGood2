@@ -139,10 +139,10 @@ function apageAnimation() {
     duration: 0.2,
     stagger: 0.3,
   });
-  gsap.from(".page4 .heading h4, .page4 button , .page4 .page4-text p" , {
+  gsap.from(".page4 .heading h4, .page4 button , .page4 .page4-text p", {
     // y:100,
-    y:50,
-    
+    y: 50,
+
     opacity: 0,
 
     scrollTrigger: {
@@ -150,10 +150,6 @@ function apageAnimation() {
       scroller: ".main",
       // markers: true,
       start: "top 60%",
-     
-      
-     
-      
     },
     duration: 0.4,
     stagger: 0.3,
