@@ -178,10 +178,7 @@ body {
   display: none;
 }
 
-.mark {
-  width: 100%;
-  height: 200vh;
-}
+
 @keyframes circle {
   0% {
     transform: rotate(0);

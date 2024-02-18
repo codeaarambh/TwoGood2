@@ -164,7 +164,7 @@ gsap.from(".page5 .image1,.page5 .image2", {
   scrollTrigger: {
     trigger: ".page5",
     scroller: ".main",
-    markers: true,
+    // markers: true,
     start: "top 40%",
   },
   duration:0.8, // Duration property inside the animation function
