@@ -177,7 +177,7 @@ gsap.from(".page5 .text-area h2,.page5 .text-area p,.page5 .text-area h3", {
   scrollTrigger: {
     trigger: ".page5",
     scroller: ".main",
-    markers: true,
+    // markers: true,
     start: "top 40%",
   },
   duration:0.4, // Duration property inside the animation function
