@@ -151,25 +151,25 @@ function apageAnimation() {
       // markers: true,
       start: "top 60%",
     },
-    duration: 0.5,
-    stagger: 0.4,
+    duration: 0.2,
+    stagger: 0.2,
   });
-let b=gsap.timeline()
+  let b = gsap.timeline();
 
-gsap.from(".page5 .image1,.page5 .image2", {
-  y:200,
-  scale:0.5,
-  opacity: 0,
-  stagger: 0.3,
-  scrollTrigger: {
-    trigger: ".page5",
-    scroller: ".main",
-    // markers: true,
-    start: "top 40%",
-  },
-  duration:0.8, // Duration property inside the animation function
-});
-}
+  gsap.from(".page5 .image1,.page5 .image2", {
+    y: 200,
+    scale: 0.5,
+    opacity: 0,
+    stagger: 0.3,
+    scrollTrigger: {
+      trigger: ".page5",
+      scroller: ".main",
+      // markers: true,
+      start: "top 40%",
+    },
+    duration: 0.8, // Duration property inside the animation function
+  });
+
 gsap.from(".page5 .text-area h2,.page5 .text-area p,.page5 .text-area h3", {
   x: 20,
   opacity: 0,
@@ -180,10 +180,22 @@ gsap.from(".page5 .text-area h2,.page5 .text-area p,.page5 .text-area h3", {
     // markers: true,
     start: "top 40%",
   },
-  duration:0.4, // Duration property inside the animation function
+  duration: 0.4, // Duration property inside the animation function
+});
+gsap.from(".f-text p, .f-text i,.footer img, .social h4, .social h5, .facts h4 ,.facts h5, .item p ,.footer-te p", {
+  x: 20,
+  opacity: 0,
+  stagger: 0.1,
+  scrollTrigger: {
+    trigger: ".footer",
+    scroller: ".main",
+    // markers: true,
+    start: "top 40%",
+  },
+  duration: 0.1, // Duration property inside the animation function
 });
 
-
+}
 apageAnimation();
 
 function cursoranimation() {
