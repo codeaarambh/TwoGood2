@@ -182,17 +182,17 @@ gsap.from(".page5 .text-area h2,.page5 .text-area p,.page5 .text-area h3", {
   },
   duration: 0.4, // Duration property inside the animation function
 });
-gsap.from(".f-text p, .f-text i,.footer img, .social h4, .social h5, .facts h4 ,.facts h5, .item p ,.footer-te p", {
+gsap.from(".f-text p, .f-text i,.footer img, .social h4, .social , .facts h4 ,.facts , .item p ,.footer-te p", {
   x: 20,
   opacity: 0,
-  stagger: 0.1,
+  stagger: 0.2,
   scrollTrigger: {
     trigger: ".footer",
     scroller: ".main",
     // markers: true,
     start: "top 40%",
   },
-  duration: 0.1, // Duration property inside the animation function
+  duration: 0.4, // Duration property inside the animation function
 });
 
 }
